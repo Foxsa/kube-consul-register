@@ -1,11 +1,11 @@
 package controller
 
 import (
-	"github.com/tczekajlo/kube-consul-register/config"
-	"github.com/tczekajlo/kube-consul-register/consul"
-	"github.com/tczekajlo/kube-consul-register/controller/endpoints"
-	"github.com/tczekajlo/kube-consul-register/controller/pods"
-	"github.com/tczekajlo/kube-consul-register/controller/services"
+	"github.com/Foxsa/kube-consul-register/config"
+	"github.com/Foxsa/kube-consul-register/consul"
+	"github.com/Foxsa/kube-consul-register/controller/endpoints"
+	"github.com/Foxsa/kube-consul-register/controller/pods"
+	"github.com/Foxsa/kube-consul-register/controller/services"
 
 	"k8s.io/client-go/kubernetes"
 )

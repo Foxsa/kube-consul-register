@@ -12,14 +12,14 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/tczekajlo/kube-consul-register/consul"
-	"github.com/tczekajlo/kube-consul-register/metrics"
-	"github.com/tczekajlo/kube-consul-register/utils"
+	"github.com/Foxsa/kube-consul-register/consul"
+	"github.com/Foxsa/kube-consul-register/metrics"
+	"github.com/Foxsa/kube-consul-register/utils"
 
 	"github.com/golang/glog"
 
-	"github.com/tczekajlo/kube-consul-register/config"
-	"github.com/tczekajlo/kube-consul-register/controller"
+	"github.com/Foxsa/kube-consul-register/config"
+	"github.com/Foxsa/kube-consul-register/controller"
 
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/pkg/api/v1"

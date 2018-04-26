@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/tczekajlo/kube-consul-register/config"
+	"github.com/Foxsa/kube-consul-register/config"
 
 	"github.com/golang/glog"
 	consulapi "github.com/hashicorp/consul/api"
